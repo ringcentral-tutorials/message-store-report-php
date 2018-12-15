@@ -5,9 +5,11 @@ CLIENT_SECRET_SB=SandBox_ClientSecret
 
 USERNAME_SB=SandBox_Username
 PASSWORD_SB=SansBox_Password
+EXTENSION_SB=
 
 CLIENT_ID_PROD=Production_ClientID
 CLIENT_SECRET_PROD=Production_ClientSecret
 
 USERNAME_PROD=Production_Username
 PASSWORD_PROD=Production_Password
+EXTENSION_PROD=

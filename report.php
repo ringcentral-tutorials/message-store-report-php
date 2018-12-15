@@ -95,9 +95,8 @@ function GetMessageStoreReportArchiveContent($contentUri, $fileName){
 
 function login(){
     global $platform;
-    global $tokens;
     try {
-        if (getenv('DEV_MODE') == "sandbox")
+        if (getenv('ENVIRONMENT_MODE') == "sandbox")
             $platform->login(getenv('USERNAME_SB'), getenv('EXTENSION_SB'), getenv('PASSWORD_SB'));
         else
             $platform->login(getenv('USERNAME_PROD'), getenv('EXTENSION_PROD'), getenv('PASSWORD_PROD'));
